@@ -1,0 +1,32 @@
+.header-container {
+  display: grid;
+  background-image: url("../../assets/pattern-bg-desktop.png");
+  color: white;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 0px 111px 0px;
+}
+.heading {
+  font-size: 27px;
+  font-weight: 500;
+  text-align: center;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.ip-address {
+  outline: 0;
+  border: 0;
+  width: 400px;
+  height: 30px;
+  padding: 10px 15px;
+  border-radius: 10px 0px 0px 10px;
+}
+.ipBtn {
+  background-color: black;
+  padding: 18px 20px;
+  border-radius: 0px 10px 10px 0px;
+}
