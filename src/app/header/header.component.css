@@ -70,3 +70,50 @@
   cursor: pointer;
   background-color: hsl(0, 0%, 17%);
 }
+@media (max-width: 678px) {
+  .header-container {
+    background-image: url("../../assets/pattern-bg-mobile.png");
+    display: grid;
+    padding: 7% 0px 41% 0px;
+  }
+  .heading {
+    font-size: 160%;
+  }
+  .title-container {
+    margin-top: 8%;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .ip-address {
+    width: 64%;
+    height: 36%;
+    padding: 5% 4%;
+  }
+  .ipBtn {
+    padding: 6%;
+  }
+  .address-container {
+    display: grid;
+    width: 87%;
+    top: 60%;
+    text-align: center;
+    padding: 7% 0%;
+    transform: translate(-50%, 0%);
+    height: max-content;
+  }
+  .address {
+    padding: 0% 5%;
+    width: auto;
+  }
+  .title {
+    padding-bottom: 3%;
+  }
+  .data {
+    font-size: 118%;
+  }
+  .border-left {
+    padding-top: 7%;
+    width: 0;
+  }
+}
